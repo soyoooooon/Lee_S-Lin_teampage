@@ -1,0 +1,234 @@
+@font-face {
+  font-family: 'BEBAS';
+  src:  url('BEBAS.woff') format('woff'),
+  		url('BEBAS.woff2') format('woff2'),
+  		url('BEBAS.ttf')  format('TTF');   
+}
+/***********Made by Soyoon LEE********************/
+
+main
+{
+font-family: 'BEBAS', sans-serif;
+width:1200px;
+margin: 0 auto;
+}
+
+/***** blue background********/
+
+#bg
+{
+background-color:#29abe2;
+width: 1200px;
+height:700px;
+}
+
+.team
+{
+width: 100px;
+height: 50px;
+margin-top: 50px;
+margin-left: 550px;
+background-color: #ff0000;
+}
+
+
+
+
+h1
+{
+text-align: center;
+font-family: 'BEBAS';
+font-size: 25px;
+color:white;
+}
+
+#planet
+{
+position:relative;
+top: 10px;
+left: 300px;
+z-index: 1;
+}
+
+
+#coffee
+{
+position:relative;
+top: 150px;
+left:10px;
+z-index: 1;
+}
+
+
+
+
+/******profile 1*********/
+
+#profile
+{
+width: 500px;
+/*height: 800px;*/
+left: 350px;
+top: -60px;
+text-align: center;
+position: relative;
+}
+
+
+.pt1
+{
+width: 480px;
+height: 500px;
+background-color: white;
+border: solid 10px #318bbc;
+}
+
+.bio1
+{
+width: 500px;
+height: 430px;
+background-color: #b6ddef;
+}
+
+/*********put some icons**********/
+
+.sy
+{
+width: 400px;
+height: : 60px;
+margin-left: 35px;
+display: flex;
+flex-direction: row;
+}
+
+.sy img
+{
+margin-top: 5px;
+margin-left: 75px;
+}
+
+.sy figcaption
+{
+margin-top: 35px;
+}
+
+/***phone****/
+
+.phone1
+{
+width: 220px;
+height: : 60px;
+display: flex;
+flex-direction: row;
+}
+
+.phone1 figcaption
+{
+margin-top: 20px;
+margin-left: -10px;
+}
+
+/**********SY-hobby*********/
+
+.hobby1
+{
+width: 220px;
+height: : 100px;
+display: flex;
+flex-direction: row;
+margin-top: 45px;
+}
+
+#hobby
+{
+margin-left: 10px;
+}
+
+.hobby1 figcaption
+{
+margin-top: 10px;
+margin-left: 10px;
+width: 100px;
+height: 50px;
+}
+
+/*******SY-email*************/
+
+.email1
+{
+width: 220px;
+height: : 100px;
+display: flex;
+flex-direction: row;
+margin-top: 45px;
+}
+
+.email1 img
+{
+margin-left: -3px;
+}
+
+.email1 figcaption
+{
+margin-top: 5px;
+margin-left: -5px;
+}
+
+/*************self****************/
+
+
+
+#container
+{
+display: flex;
+flex-direction: row;
+margin-top: 25px;
+}
+
+
+#info
+{
+width: 250px;	
+}
+
+
+#intro
+{
+display: flex;
+flex-direction: row;
+}
+
+#intro p
+{
+font-family: 'Open Sans Condensed', 'Helvetica', san-serif;
+width: 60%;
+font-size: 14px;
+margin-left: 15px;
+}
+
+
+
+/************************************************bio ends plz***************************************/
+
+.buttons
+{
+text-align: center;
+margin-left: 350px;
+width: 500px;
+height: 100px;
+}
+
+.bts 
+{
+width: 100px;
+height: 50px;
+background-color: #f47878;
+font-family: 'BEBAS';
+font-size: 20px;
+color: black;
+border-radius: 5px;
+margin: 30px;
+}
+
+.bts:hover
+{cursor: pointer;}
